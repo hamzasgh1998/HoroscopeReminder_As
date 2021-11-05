@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HoroscopeHome">
+
+    <Button
+        android:id="@+id/taureau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="66dp"
+        android:text="taureau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gemeaux"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/capricorne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="37dp"
+        android:text="capricorne"
+        app:layout_constraintBaseline_toBaselineOf="@+id/sagittaire"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/cancer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="cancer"
+        app:layout_constraintStart_toStartOf="@+id/taureau"
+        app:layout_constraintTop_toBottomOf="@+id/taureau" />
+
+    <Button
+        android:id="@+id/vierge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="vierge"
+        app:layout_constraintStart_toStartOf="@+id/cancer"
+        app:layout_constraintTop_toBottomOf="@+id/cancer" />
+
+    <Button
+        android:id="@+id/belier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="38dp"
+        android:text="belier"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/scorpion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="57dp"
+        android:text="scorpion"
+        app:layout_constraintBaseline_toBaselineOf="@+id/balance"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/sagittaire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginBottom="242dp"
+        android:text="sagittaire"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/lion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="53dp"
+        android:text="lion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gemeaux" />
+
+    <Button
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="balance"
+        app:layout_constraintBottom_toTopOf="@+id/sagittaire"
+        app:layout_constraintEnd_toEndOf="@+id/sagittaire" />
+
+    <Button
+        android:id="@+id/gemeaux"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gemeaux"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cancer"
+        app:layout_constraintStart_toStartOf="@+id/belier" />
+
+    <Button
+        android:id="@+id/verseau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="12dp"
+        android:text="verseau"
+        app:layout_constraintEnd_toEndOf="@+id/gemeaux"
+        app:layout_constraintStart_toStartOf="@+id/sagittaire"
+        app:layout_constraintTop_toBottomOf="@+id/sagittaire" />
+
+    <Button
+        android:id="@+id/poissons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="148dp"
+        android:text="poissons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_menu"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
