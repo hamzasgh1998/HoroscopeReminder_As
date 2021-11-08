@@ -21,7 +21,7 @@ public class TaureauHome extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_taureau_home);
+         setContentView(R.layout.activity_taureau_home);
 
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView)findViewById(R.id.navigation);

@@ -8,6 +8,7 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/Authentification/app/src/main/res/layout/activity_loginactivity.xml" value="0.1" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Authentification/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
         <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/drawable/belier.xml" value="0.13541666666666666" />
+        <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/drawable/strt_icon_24.xml" value="0.14635416666666667" />
         <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/drawable/verseau.xml" value="0.13541666666666666" />
         <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/layout/activity_action_reminder.xml" value="0.19021739130434784" />
         <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/layout/activity_balance_home.xml" value="0.13020833333333334" />
@@ -18,6 +19,7 @@
         <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/layout/activity_home.xml" value="0.176" />
         <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/layout/activity_horoscope_home.xml" value="0.176" />
         <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/layout/activity_lion_home.xml" value="0.13020833333333334" />
+        <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
         <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/layout/activity_poisson_home.xml" value="0.13020833333333334" />
         <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/layout/activity_profile.xml" value="0.19021739130434784" />
         <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/layout/activity_sagittaire_home.xml" value="0.13020833333333334" />
@@ -27,6 +29,7 @@
         <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/layout/activity_vierge_home.xml" value="0.13020833333333334" />
         <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/layout/bottom_menu.xml" value="0.19021739130434784" />
         <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/layout/navigation_items.xml" value="0.19021739130434784" />
+        <entry key="..\:/downloads/Authentification/Authentification/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2462962962962963" />
       </map>
     </option>
   </component>
